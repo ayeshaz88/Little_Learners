@@ -1,0 +1,42 @@
+name: my_proj
+description: A new Flutter project
+
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.4
+  firebase_core: ^2.19.0
+  firebase_auth: ^4.11.1
+  cupertino_icons: ^1.0.6
+  firebase_storage: ^11.3.1
+  cloud_firestore: ^4.11.0
+  fluttertoast: ^8.2.2
+  firebase_database: ^10.3.1
+  flutter_staggered_grid_view: ^0.7.0
+  transparent_image: ^2.0.1
+  video_player: ^2.7.2
+  bottom_navy_bar: ^6.0.0
+  google_fonts: ^6.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: Rubik Medium
+      fonts:
+        - asset: fonts/rubik_medium.ttf
+    - family: Rubik Regular
+      fonts:
+        - asset: fonts/rubik_regular.ttf
